@@ -170,5 +170,8 @@ right: 300px;
 @media screen and (max-width: 600px) {
   .gif {
     visibility: hidden;
+    clear: 
+    float: left;
+    display: none;
   }
 }
