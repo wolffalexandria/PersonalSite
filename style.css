@@ -166,3 +166,9 @@ left: 700px
 top: 1200px;
 right: 300px;
 }
+
+@media screen and (max-width: 600px) {
+  .gif {
+    visibility: hidden;
+  }
+}
