@@ -31,7 +31,7 @@
 .glance {
     font-family: "Pixelar Regular W01 Regular";
     font-size: 40px;
-    display: flex;
+    display: flex
     color: #F7ED9E;
     margin: auto;
     text-align: center;
@@ -49,7 +49,6 @@
 }
 .icons {
  display: flex;
-
 }    
 
 a {
@@ -173,4 +172,14 @@ right: 300px;
     clear: both;
     display: none;
   }
+}
+footer {
+  margin: auto;
+  display: flex; 
+  font-family: "Pixelar Regular W01 Regular";
+  align-items: center;
+  justify-content: center;
+  color: #B678D1;
+  text-shadow: 2px 2px #F7ED9E;
+  font-size: 22px;
 }
