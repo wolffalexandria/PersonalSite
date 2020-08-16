@@ -20,14 +20,21 @@
   }
  .bigfont {
      font-size: 55px;
-     text-shadow: 2px 2px white;
-    
-     
+     text-shadow: 2px 2px white;    
  }
  .littlefont{
      font-size: 40px; 
      text-shadow: 2px 2px white;
  }
+ .about {
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 20px;
+}
+
 .glance {
     font-family: "Pixelar Regular W01 Regular";
     font-size: 40px;
@@ -123,17 +130,11 @@ input[type=text], select, textarea {
 .star1 {
   top: 15px;
 }
-.star2 {
-  left: 300px;
-  top: 200px;
-}
+
 .star3 {
   top: 500px;
 }
-.star4 {
-  bottom: -250px;
-  left: 800px;
-}
+
 .star5 {
   bottom: -500px;
   left: 1000px;
@@ -142,9 +143,7 @@ input[type=text], select, textarea {
   top: 900px;
   left: 750px;
 }
-.star7 {
-  top: 750px;
-}
+
 .star8 {
 left: 900px;
 top: 50px;
@@ -155,7 +154,6 @@ top: 50px;
 .star10 {
 top: 1100px;
 right: 550px;
-
 }
 .star11 {
 top: 1200px;
@@ -182,4 +180,22 @@ footer {
   color: #B678D1;
   text-shadow: 2px 2px #F7ED9E;
   font-size: 22px;
+}
+.resume {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+}
+
+.goback {
+  display: flex;
+  margin: auto;
+  color: #B678D1;
+  background-color: #F7ED9E;
+  font-family: "Pixelar Regular W01 Regular";
+  text-align: center;
+  font-size: 32px;
+
 }
